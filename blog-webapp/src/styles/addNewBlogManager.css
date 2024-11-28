@@ -1,0 +1,22 @@
+.add-new-manager{
+    display: flex;
+    align-items: center;
+}
+
+.add-form {
+    padding: 30px;
+    text-align: left;
+}
+
+.label {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.btn-cancel {
+    margin-right: 20px;
+}

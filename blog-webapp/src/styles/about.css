@@ -1,0 +1,131 @@
+/* Đóng khung cho ô h2 */
+.intro h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.story h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.exp h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.mission h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.unique h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.overview h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color: pink;
+}
+.community h2 {
+  border: 10px solid pink;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 35%; 
+  background-color:pink;
+}
+.intro {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mission {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.exp {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.unique {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.overview {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.community {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+p {   
+  line-height: 1.6;
+  font-size: 18px;
+}
+.call-to-action h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Font Name', comfortaa;
+}
+
+.link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px; /* Khoảng cách giữa các liên kết */
+  font-style: italic;
+}

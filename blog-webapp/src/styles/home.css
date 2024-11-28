@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=DacingScript|sans-serif');
+.carousel-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgb(0,0,0, 0.5)
+}
+
+.new-blog {
+    padding-top: 80px;
+}
+
+.blog-header {
+    padding-bottom: 10px;
+    font-weight: 650;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+.blog-header span {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #f2b705;
+    z-index: 2;
+}
+
+.item-blog:first-child{
+    margin-top: 0;
+}
+.item-blog{
+    margin-top: 30px;
+}
+
+.section-body {
+    padding-bottom: 40px;
+}
+
+.img-container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    min-height: 170px;
+    min-width: 350px;
+}
+
+.img-container picture {
+    min-height: inherit;
+    position: inherit;
+    display: inherit;
+}
+
+.img-container img {
+    height: 100%;
+    left: 50%;
+    max-width: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all linear .1s;
+    width: auto;
+
+}
+
+.item-blog:hover .img-container img {
+    -webkit-transform: translate(-50%,-50%) scale(1.1) rotate(2deg);
+    -ms-transform: translate(-50%,-50%) scale(1.1) rotate(2deg);
+    transform: translate(-50%,-50%) scale(1.1) rotate(2deg);
+
+}
+
+.text-container {
+    margin-left: 10px;
+}
+
+.blog-category {
+    color: #7d4102;
+    transition: all ease .4s;
+}
+
+.blog-category:hover {
+    color: #f2b705;
+}
+
+.blog-title {
+    color: #515151;
+    transition: all ease .4s;
+}
+
+.blog-title:hover {
+    color: #f2b705;
+}
+
+.star-container {
+    color: #f2b705;
+}
+
+.blog-subtitle {
+    font-size: 14px;
+    line-height: 1.7;
+    text-rendering: geometricPrecision;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#sidebar {
+    padding-top: 80px;
+}
+
+.blog-menu {
+    width: 270px;
+    margin-top: 0;
+    position: relative;
+}
+
+.blog-menu img {
+    width: 100%;
+}
+
+.middle-menu {
+    padding: 20px;
+    background-image: url(../../public/assets/images/middle_menu.png);
+}
+.middle-menu p a{
+    text-decoration: none;
+    padding-left:0;
+    font-size: 20px;
+    font-family: DacingScript, sans-serif
+}
+
+.category-image {
+    background-image: url(../../public/assets/images/category_background.png);
+    color: #fff;
+}
+
+.category-background {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.category-title h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    padding: 40px 15px;
+}

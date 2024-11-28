@@ -1,0 +1,19 @@
+.navbar {
+    padding: 6rem 1rem;
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-nav .nav-link {
+      margin: 0;
+    }
+  }
+  
